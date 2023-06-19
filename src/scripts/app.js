@@ -14,3 +14,13 @@ window.onload = function () {
   const prompt = "Portfolio creatif";
   anim(htmlelement, prompt);
 };
+
+const circle = document.querySelector(".circle");
+const btnStart = document.getElementById("btnStart");
+
+btnStart.addEventListener("click", function () {
+  circle.classList.add("active");
+  setTimeout(function () {
+    window.location.href = "/pages/inspirations.html";
+  }, 800);
+});
