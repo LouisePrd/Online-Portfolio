@@ -1,5 +1,6 @@
+let cmpt = 0;
+
 function anim(htmlelement, prompt) {
-  let cmpt = 0;
 
   setInterval(function () {
     if (cmpt < prompt.length) {
