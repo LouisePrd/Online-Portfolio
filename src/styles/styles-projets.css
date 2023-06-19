@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Brasika";
+    src: url("/src/assets/fonts/brasika-display-trial.otf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+  }
+  
+
+html {
+    background-color: #161616;
+}
+
+h1 {
+    font-family: 'Brasika', arial;
+    color: #ffffff;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+.title-left {
+    font-family: 'Brasika', arial;
+    color: #ffffff;
+    font-size: 2em;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.title-right {
+    font-family: 'Brasika', arial;
+    color: #ffffff;
+    font-size: 2em;
+    text-align: right;
+    margin-right: 1em;
+}
+
+.p-left {
+    font-family: 'Roboto', arial;
+    color: #b3b3b3;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+/* top right */
+#btnProject {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* top left */
+#btnHome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-demo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.left, .right{
+    width: 45%;
+    padding: 1em;
+}
+
+/* img */
+
+.chihiro1 {
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
+}
