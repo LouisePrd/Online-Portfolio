@@ -12,7 +12,7 @@ function anim(htmlelement, prompt) {
 window.onload = function () {
   const htmlelement = document.getElementsByTagName("h1")[0];
   const prompt = "Creative portfolio";
-  anim(htmlelement, prompt);
+  //anim(htmlelement, prompt);
 };
 
 const btnStart = document.getElementById("btnStart");
