@@ -23,15 +23,32 @@ body {
 }
 
 .all {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
   box-sizing: border-box;
-  border: 7vh solid #000000
+  border: 7vh solid #000000;
 }
 
+@media (max-width: 1200px) {
+  .all {
+    border-width: 5vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .all {
+    border-width: 3vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .all {
+    border-width: 2vh;
+  }
+}
 
 .main-title {
   width: 100%;
@@ -47,7 +64,7 @@ body {
 #first-title {
   text-align: left;
   font-family: 'Hit-Me-Punk', arial;
-  font-size: 9em;
+  font-size: 9vw;
   background-color: #000000;
   padding-left: 0.3em;
   padding-right: 0.3em;
@@ -55,7 +72,6 @@ body {
   margin-left: 0.2em;
   margin-bottom: 0;
   width: fit-content;
-
 }
 
 .presentation {
@@ -64,7 +80,7 @@ body {
 }
 
 .name {
-  font-size: 2.8em;
+  font-size: 2.8vw;
   font-family: "hypothetical-moon-of-mercury", arial;
   width: fit-content;
   margin: 0;
@@ -74,12 +90,11 @@ body {
   padding: 0.1em;
   transform: rotate(-5deg);
   transition: 0.5s;
-  
 }
 
 #btnStart {
   color: #ffff00;
-  font-size: 1.4em;
+  font-size: 1.4vw;
   font-family: 'Roboto', arial;
   text-decoration: none;
   background-color: #161616;
@@ -111,4 +126,16 @@ body {
   padding: 0;
   width: 30%;
   font-family: 'Roboto', arial;
+}
+
+@media (max-width: 768px) {
+  .text-presentation p {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-presentation p {
+    width: 70%;
+  }
 }
