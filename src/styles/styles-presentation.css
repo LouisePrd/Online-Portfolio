@@ -1,19 +1,31 @@
 @font-face {
-    font-family: "Brasika";
-    src: url("/src/assets/fonts/brasika-display-trial.otf");
-}
+    font-family: "Hit-Me-Punk";
+    src: url("../assets/fonts/hit-me-punk/Hit\ me\,\ punk!\ 04.ttf");
+  }
+  
+  @font-face {
+    font-family: "hypothetical-moon-of-mercury";
+    src: url("../assets/fonts/hypothetical-moon-of-mercury/HypotheticalmoonofMercury.ttf");
+  }
 
 html {
     background-color: #161616;
 }
 
 h1 {
-    font-family: 'Brasika', arial;
-    color: #ffffff;
-    font-size: 4em;
+    font-family: 'Hit-Me-Punk', arial;
+    color: #000000;
+    font-size: 5.5em;
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #ffff00;
+    width:fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 #btnProject {
@@ -24,6 +36,7 @@ h1 {
     color: #ffffff;
     text-decoration: none;
     margin: 10px;
+    font-family: 'hypothetical-moon-of-mercury', arial;
 }
 
 #btnHome {
@@ -34,6 +47,7 @@ h1 {
     color: #ffffff;
     text-decoration: none;
     margin: 10px;
+    font-family: 'hypothetical-moon-of-mercury', arial;
 }
 
 .container {

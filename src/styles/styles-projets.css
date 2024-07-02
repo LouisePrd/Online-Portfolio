@@ -1,7 +1,12 @@
 @font-face {
-    font-family: "Brasika";
-    src: url("/src/assets/fonts/brasika-display-trial.otf");
-}
+    font-family: "Hit-Me-Punk";
+    src: url("../assets/fonts/hit-me-punk/Hit\ me\,\ punk!\ 04.ttf");
+  }
+  
+  @font-face {
+    font-family: "hypothetical-moon-of-mercury";
+    src: url("../assets/fonts/hypothetical-moon-of-mercury/HypotheticalmoonofMercury.ttf");
+  }
 
 @font-face {
     font-family: "Roboto";
@@ -14,7 +19,7 @@ html {
 }
 
 h1 {
-    font-family: 'Brasika', arial;
+    font-family: 'Hit-Me-Punk', arial;
     color: #ffffff;
     font-size: 4em;
     text-align: center;
