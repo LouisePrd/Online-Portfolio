@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Hit-Me-Punk";
+    src: url("../assets/fonts/hit-me-punk/Hit\ me\,\ punk!\ 04.ttf");
+}
+
+@font-face {
+    font-family: "hypothetical-moon-of-mercury";
+    src: url("../assets/fonts/hypothetical-moon-of-mercury/HypotheticalmoonofMercury.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+html {
+    background-color: #cb559b;
+    background-image: url("../assets/imgs/pink.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Hit-Me-Punk', arial;
+    color: #000000;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #ff00b3;
+    width:fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* top right */
+#btnProject {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+    font-family: "hypothetical-moon-of-mercury", arial;
+}
+
+/* top left */
+#btnHome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+    font-family: "hypothetical-moon-of-mercury", arial;
+}
+
+.category {
+    text-decoration: none;
+}
