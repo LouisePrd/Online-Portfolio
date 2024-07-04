@@ -9,7 +9,12 @@
   }
 
 html {
-    background-color: #161616;
+    background-color: #cb559b;
+    background-image: url("../assets/imgs/pink.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -19,7 +24,7 @@ h1 {
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
-    background-color: #ffff00;
+    background-color: #ff00b3;
     width:fit-content;
     text-align: center;
     margin-left: auto;
@@ -102,9 +107,5 @@ h1 {
 img {
     transition: all .2s ease-in-out;
     visibility: hidden;
-    border:#ffff00 5px solid;
-}
-
-img:hover {
-    transform: scale(1.3);
+    border:#ff00bf 5px solid;
 }
