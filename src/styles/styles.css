@@ -29,7 +29,7 @@ body {
   flex-wrap: wrap;
   align-content: flex-start;
   box-sizing: border-box;
-  border: 7vh solid #000000;
+  border: 5vh solid #000000;
 }
 
 @media (max-width: 1200px) {
