@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
   font-family: "Hit-Me-Punk";
   src: url("../assets/fonts/hit-me-punk/Hit\ me\,\ punk!\ 04.ttf");
@@ -57,7 +59,7 @@ body {
   flex-wrap: wrap;
   align-content: flex-start;
   align-items: center;
-  transform: rotate(3deg);
+  transform: rotate(-3deg);
   transition: 0.5s;
 }
 
@@ -66,17 +68,30 @@ body {
   font-family: 'Hit-Me-Punk', arial;
   font-size: 8vw;
   background-color: #ff00b3;
-  padding-left: 0.3em;
-  padding-right: 0.3em;
-  margin-top: 0.5em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  margin-top: 0.3em;
   margin-left: 0.2em;
   margin-bottom: 0;
   width: fit-content;
+  border: 0.08em solid #000000;
+}
+
+.presentation-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5em;
+  justify-content: space-around;
 }
 
 .presentation {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex: 1;
+  max-width: 20%;
+  justify-content: center;
+  align-items: center;
 }
 
 .name {
@@ -86,10 +101,41 @@ body {
   margin: 0;
   margin-left: 0.5em;
   margin-top: 0.3em;
-  background-color: #ff00b3;;
+  background-color: #ff00b3;
   padding: 0.1em;
-  transform: rotate(-5deg);
-  transition: 0.5s;
+}
+
+#memoji {
+  width: 40%;
+  height: auto;
+  margin-top: 1em;
+}
+
+#memoji:hover {
+  transform: scale(1.1);
+}
+
+.text-presentation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 1em;
+  width:60%;
+}
+
+.text-presentation p {
+  width: 100%;
+  font-family: 'Bebas Neue', arial;
+  font-size: 1.25em;
+}
+
+.startdiv {
+  display: flex;
+  justify-content: center;
 }
 
 #btnStart {
@@ -101,44 +147,33 @@ body {
   padding: 5px 10px;
   width: fit-content;
   margin-top: 0.7em;
+  border: 0.08em solid #ff00b3;
 }
 
-#skull {
-  position: absolute;
-  width: 20%;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  transform: rotate(90deg);
+#btnStart:hover {
+  background-color: #ff00b3;
+  color: #161616;
+  border: 0.08em solid #161616;
 }
 
-.text-presentation {
-  font-size: 1.1em;
-  width: 100%;
+.social-media {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: flex-end;
-  padding-right: 3em;
-  text-align: justify;
-  color: white;
+  justify-content: center;
+  max-width: 10%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
-.text-presentation p {
-  margin: 0;
-  padding: 0;
+.social-media img {
   width: 40%;
-  font-family: 'Roboto', arial;
+  height: auto;
+  margin: 0.5em;
 }
 
-@media (max-width: 768px) {
-  .text-presentation p {
-    width: 50%;
-  }
+.social-media img:hover {
+  transform: scale(1.1);
 }
 
-@media (max-width: 480px) {
-  .text-presentation p {
-    width: 70%;
-  }
-}
