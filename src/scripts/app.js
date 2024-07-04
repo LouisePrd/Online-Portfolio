@@ -9,12 +9,6 @@ function anim(htmlelement, prompt) {
   }, 120);
 }
 
-window.onload = function () {
-  const htmlelement = document.getElementsByTagName("h1")[0];
-  const prompt = "Creative portfolio";
-  //anim(htmlelement, prompt);
-};
-
 const btnStart = document.getElementById("btnStart");
 
 btnStart.addEventListener("click", function () {
