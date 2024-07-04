@@ -9,8 +9,8 @@
 }
 
 html {
-  color: #ffff00;
-  background-image: url("../assets/imgs/background.jpg");
+  color: #000000;
+  background-image: url("../assets/imgs/pink1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -64,8 +64,8 @@ body {
 #first-title {
   text-align: left;
   font-family: 'Hit-Me-Punk', arial;
-  font-size: 9vw;
-  background-color: #000000;
+  font-size: 8vw;
+  background-color: #ff00b3;
   padding-left: 0.3em;
   padding-right: 0.3em;
   margin-top: 0.5em;
@@ -86,14 +86,14 @@ body {
   margin: 0;
   margin-left: 0.5em;
   margin-top: 0.3em;
-  background-color: #161616;
+  background-color: #ff00b3;;
   padding: 0.1em;
   transform: rotate(-5deg);
   transition: 0.5s;
 }
 
 #btnStart {
-  color: #ffff00;
+  color: #ff00b3;
   font-size: 2vw;
   font-family: 'hypothetical-moon-of-mercury', arial;
   text-decoration: none;
@@ -121,6 +121,7 @@ body {
   align-content: flex-end;
   padding-right: 3em;
   text-align: justify;
+  color: white;
 }
 
 .text-presentation p {

@@ -10,12 +10,18 @@ function show() {
   const interval = setInterval(function () {
     if (i < images.length) {
       images[i].style.visibility = "visible";
-      const randomAngle = Math.random() * 30 - 15; // Génère un angle entre -15 et 15 degrés
+      const randomAngle = Math.random() * 30 - 15; 
       images[i].style.transform = `rotate(${randomAngle}deg)`;
+      images[i].addEventListener('mouseover', function() {
+        images[i].classList.add('hover-scale');
+      });
+      images[i].addEventListener('mouseout', function() {
+        images[i].classList.remove('hover-scale');
+      });
       i++;
     } else {
       clearInterval(interval);
-      resetImages(); // Appeler la fonction pour remettre les images droites
+      resetImages();
     }
   }, 400);
 }
@@ -26,7 +32,7 @@ function resetImages() {
     for (let img of images) {
       img.style.transform = 'rotate(0deg)';
     }
-  }, 1000);
+  }, 2000);
 }
 
 function anim(htmlelement, prompt) {
