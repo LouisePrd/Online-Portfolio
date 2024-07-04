@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family: "Hit-Me-Punk";
+  src: url("../assets/fonts/hit-me-punk/Hit\ me\,\ punk!\ 04.ttf");
+}
+
+@font-face {
+  font-family: "hypothetical-moon-of-mercury";
+  src: url("../assets/fonts/hypothetical-moon-of-mercury/HypotheticalmoonofMercury.ttf");
+}
+
+:root {
+  /* Colors */
+  --color-pink: #ff00b3;
+  --color-black: #000000;
+  /* Fonts */
+  --police-titre: 'Hit-Me-Punk', arial;
+  --police-titre2-btn: 'hypothetical-moon-of-mercury', arial;
+  --police-texte: 'Bebas Neue', arial;
+  /* Sizes */
+  --font-size-very-large: 8vw;
+  --font-size-large: 4vw;
+  --font-size-medium: 2.5vw;
+  --font-size-small: 1.5vw;
+  --font-size-xsmall: 1.3vw;
+}
+
+html {
+  background-image: url("../assets/imgs/backgrounds/pink1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#div-first-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+  transform: rotate(-3deg);
+  transition: 0.5s;
+}
+
+#first-title {
+  text-align: left;
+  font-family: var(--police-titre);
+  font-size: var(--font-size-very-large);
+  background-color: #ff00b3;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  margin-top: 0.3em;
+  margin-left: 0.2em;
+  margin-bottom: 0;
+  width: fit-content;
+  border: 0.08em solid var(--color-black);
+}
+
+.sub-title {
+  font-family: var(--police-titre);
+  color: var(--color-black);
+  font-size: var(--font-size-large);
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: var(--color-pink);
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#btnProject {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: var(--font-size-small);
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px;
+  font-family: var(--police-titre2-btn);
+}
+
+#btnHome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-small);
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px;
+  font-family: var(--police-titre2-btn);
+}
+
+
+
+
+/* Presentation style for this page only */
+
+.all {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  box-sizing: border-box;
+  border: 3vh solid var(--color-black);
+}
+
+@media (max-width: 1200px) {
+  .all {
+    border-width: 5vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .all {
+    border-width: 3vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .all {
+    border-width: 2vh;
+  }
+}
+
+.presentation-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5em;
+  justify-content: space-around;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: var(--font-size-medium);
+  font-family: var(--police-titre2-btn);
+  width: fit-content;
+  margin: 0;
+  margin-left: 0.5em;
+  margin-top: 0.3em;
+  background-color: var(--color-pink);
+  padding: 0.1em;
+}
+
+#memoji {
+  width: 40%;
+  height: auto;
+  margin-top: 1em;
+}
+
+#memoji:hover {
+  transform: scale(1.1);
+}
+
+.text-presentation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 1em;
+  width:60%;
+}
+
+.text-presentation p {
+  width: 100%;
+  font-family: var(--police-texte);
+  font-size: var(--font-size-xsmall);
+}
+
+.startdiv {
+  display: flex;
+  justify-content: center;
+}
+
+#btnStart {
+  color: var(--color-pink);
+  font-size: var(--font-size-small);
+  font-family: var(--police-titre2-btn);
+  text-decoration: none;
+  background-color: var(--color-black);
+  padding: 5px 10px;
+  width: fit-content;
+  margin-top: 0.7em;
+  border: 0.08em solid var(--color-pink);
+}
+
+#btnStart:hover {
+  background-color: var(--color-pink);
+  color: var(--color-black);
+  border: 0.08em solid var(--color-black);
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 10%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.social-media img {
+  width: 40%;
+  height: auto;
+  margin: 0.5em;
+}
+
+.social-media img:hover {
+  transform: scale(1.1);
+}
+
