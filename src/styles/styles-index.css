@@ -182,22 +182,30 @@ body {
         align-items: center;
         margin-top: 2em;
     }
-    
+
     .presentation {
+        max-width: 80%;
         margin-bottom: 1em;
+        width: 100%;
     }
     
     .text-presentation {
         width: 80%;
     }
-    
+
     .social-media {
-        max-width: 20%;
+        max-width: 30%;
+        width: 100%;
         margin-top: 2em;
     }
 
+    .social-media img {
+        width: 20%;
+        height:fit-content;
+    }
+
     #memoji {
-        width: 30%;
+        width: 20%;
     }
 }
 
@@ -211,15 +219,20 @@ body {
     .presentation {
         max-width: 80%;
         margin-bottom: 1em;
+        width: 100%;
     }
-    
     .text-presentation {
         width: 80%;
     }
     
     .social-media {
-        max-width: 15%;
+        max-width: 20%;
+        width: 100%;
         margin-top: 1em;
+    }
+
+    .social-media img {
+        width: 30%;
     }
 
     #memoji {
