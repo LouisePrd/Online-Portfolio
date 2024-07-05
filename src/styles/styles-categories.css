@@ -1,7 +1,125 @@
 html {
     background-image: url("../assets/imgs/backgrounds/pink.jpg");
+    overflow: hidden;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 8em;
+    text-align: center;
 }
 
 .category {
     text-decoration: none;
+    color: var(--color-black);
+    font-family: var(--police-titre2-btn);
+    font-size: var(--font-size-medium);
+    width: fit-content;
+    background-color: var(--color-pink);
+    padding: 0.1em;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    z-index: 1;
+}
+
+.category:hover {
+    background-color: var(--color-black);
+    color: var(--color-pink);
+}
+
+.cd {
+    height: 60vw;
+    width: 60vw;
+    max-height: 150vh;
+    max-width: 150vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.play {
+    animation: rotation 10s infinite linear;
+}
+
+.pause {
+    animation-play-state: paused;
+}
+
+@keyframes rotation {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.hand {
+    position: absolute;
+    bottom : 0;
+    left: 0;
+    max-width: 25vw;
+    max-height: 25vw;
+}
+
+.cd-player {
+    position: absolute;
+    bottom: 1vw;
+    right: 10vw;
+    height: 35vw;
+    width: auto;
+    transform: rotate(180deg);
+    transform : 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.cd-player:hover {
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+    .categories {
+        margin-top: 4em;
+    }
+    
+    .cd {
+        height: 80vw;
+        width: 80vw;
+    }
+
+    .cd-player {
+        height: 50vw;
+    }
+
+    .hand {
+        max-width: 35vw;
+        max-height: 35vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .categories {
+        margin-top: 2em;
+    }
+    
+    .cd {
+        visibility: hidden; 
+    }
+
+    .cd-player {
+        visibility: hidden;
+    }
+
+    .hand {
+        visibility: hidden;
+    }
 }
