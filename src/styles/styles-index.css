@@ -26,7 +26,7 @@ body {
     text-align: left;
     font-family: var(--police-titre);
     font-size: var(--font-size-very-large);
-    background-color: #ff00b3;
+    background-color: var(--color-pink);
     padding-left: 0.2em;
     padding-right: 0.2em;
     margin-top: 0.3em;
@@ -166,13 +166,13 @@ body {
 /* Media Queries */
 @media (max-width: 1200px) {
     .all {
-        border-width: 5vh;
+        border-width: 4vh;
     }
 }
 
 @media (max-width: 768px) {
     .all {
-        border-width: 3vh;
+        border-width: 2vh;
         flex-direction: column;
         align-items: center;
     }
@@ -180,10 +180,11 @@ body {
     .presentation-container {
         flex-direction: column;
         align-items: center;
+        margin-top: 2em;
     }
     
     .presentation {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
     
     .text-presentation {
@@ -196,7 +197,7 @@ body {
     }
 
     #memoji {
-        width: 20%;
+        width: 30%;
     }
 }
 
@@ -208,16 +209,20 @@ body {
     }
     
     .presentation {
-        max-width: 90%;
+        max-width: 80%;
         margin-bottom: 1em;
     }
     
     .text-presentation {
-        width: 90%;
+        width: 80%;
     }
     
     .social-media {
-        max-width: 30%;
+        max-width: 15%;
         margin-top: 1em;
+    }
+
+    #memoji {
+        width: 20%;
     }
 }
