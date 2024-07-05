@@ -86,7 +86,7 @@ body {
     color: var(--color-black);
 }
 
-.name:hover {
+.link:hover {
     color: var(--color-pink);
     background-color: var(--color-black);
 }
