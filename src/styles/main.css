@@ -19,11 +19,11 @@
   --police-titre2-btn: 'hypothetical-moon-of-mercury', arial;
   --police-texte: 'Bebas Neue', arial;
   /* Sizes */
-  --font-size-very-large: 8vw;
-  --font-size-large: 4.5vw;
-  --font-size-medium: 2.5vw;
-  --font-size-small: 1.7vw;
-  --font-size-xsmall: 1.3vw;
+  --font-size-very-large: 6em;
+  --font-size-large: 4em;
+  --font-size-medium: 2.3em;
+  --font-size-small: 1.8em;
+  --font-size-xsmall: 1.3em;
 }
 
 html {
