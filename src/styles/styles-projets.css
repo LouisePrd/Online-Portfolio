@@ -64,11 +64,12 @@ html {
     margin: 0 auto;
     display: block;
     border: var(--color-black) 8px solid;
-    border-image: linear-gradient(55deg, var(--color-pink), var(--color-black)) 1;
+    transition: all .5s ease-in-out;
+    border-radius: 10px;
 }
 
 .slide-img:hover {
-    filter: blur(0.3rem);
-    transition: all 0.5s;
-    border: var(--color-black) 8px solid;
+    border: var(--color-pink) 8px solid;
+    border-radius: 10px;
+    cursor: pointer;
 }

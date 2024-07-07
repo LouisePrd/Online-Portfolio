@@ -54,6 +54,10 @@ html {
     animation-play-state: paused;
 }
 
+.cd-player.play {
+    animation: none;
+}
+
 @keyframes rotation {
     from {
         transform: translate(-50%, -50%) rotate(0deg);
@@ -78,13 +82,25 @@ html {
     height: 35vw;
     width: auto;
     transform: rotate(180deg);
-    transform : 0.5s ease-in-out;
     cursor: pointer;
+    animation: blink-filter 1s infinite alternate ease-in-out;
+}
+
+@keyframes blink-filter {
+    0% {
+        filter: drop-shadow(1px 0px 0 rgb(255, 234, 0)) drop-shadow(0px 1px 0 rgb(255, 234, 0)) drop-shadow(-1px -0px 0 rgb(255, 234, 0)) drop-shadow(-0px -1px 0 rgb(255, 234, 0));
+    }
+    100% {
+        filter: drop-shadow(1px 0px 0 rgba(255, 234, 0, 0.3)) drop-shadow(0px 1px 0 rgba(255, 234, 0, 0.3)) drop-shadow(-1px -0px 0 rgba(255, 234, 0, 0.3)) drop-shadow(-0px -1px 0 rgba(255, 234, 0, 0.3));
+    }
 }
 
 .cd-player:hover {
     transition: 0.5s;
+    animation: none;
 }
+
+
 
 @media (max-width: 768px) {
     .categories {
