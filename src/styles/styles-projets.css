@@ -44,8 +44,13 @@ html {
 }
 
 .slide-arrow img {
-    width: 8rem;
+    width: 7rem;
     height: 4rem;
+    opacity: 0.6;
+}
+
+.slide-arrow:hover img {
+    opacity: 1;
 }
 
 #slide-arrow-prev {
@@ -64,7 +69,7 @@ html {
     margin: 0 auto;
     display: block;
     border: var(--color-black) 8px solid;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
     border-radius: 10px;
 }
 
