@@ -69,10 +69,11 @@ html {
 
 .hand {
     position: absolute;
-    bottom : 0;
+    bottom : -10px;
     left: 0;
     max-width: 25vw;
     max-height: 25vw;
+    animation: blink-filter 1s infinite alternate ease-in-out;
 }
 
 .cd-player {
@@ -98,6 +99,19 @@ html {
 .cd-player:hover {
     transition: 0.5s;
     animation: none;
+}
+
+.hand:hover {
+    animation: move-hand 0.5s infinite alternate ease-in-out;
+}
+
+@keyframes move-hand {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 1vw);
+    }
 }
 
 
