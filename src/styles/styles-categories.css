@@ -74,6 +74,7 @@ html {
     max-width: 25vw;
     max-height: 25vw;
     animation: blink-filter 1s infinite alternate ease-in-out;
+    cursor: pointer;
 }
 
 .cd-player {

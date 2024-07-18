@@ -80,6 +80,7 @@ body {
     background-color: var(--color-pink);
     padding: 0.1em;
     text-decoration: none;
+    color: var(--color-black);
 }
 
 .name:visited {
