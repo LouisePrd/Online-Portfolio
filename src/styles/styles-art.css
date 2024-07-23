@@ -1,0 +1,59 @@
+html {
+    background-image: url("../assets/imgs/backgrounds/pink.jpg");
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color:rgb(17, 4, 82);
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+}
+
+h2 {
+    font-size: var(--font-size-medium);
+    font-family: var(--police-titre2-btn);
+    color: var(--color-black);
+    background-color: var(--color-pink);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2rem;
+    margin-top: 3rem;
+}
+
+h3 {
+    font-size: var(--font-size-xsmall);
+    font-family: var(--police-texte);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.poeme-container {
+    color: white;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.poeme {
+    width: fit-content;
+    border: 2px solid var(--color-pink);
+    padding: 1rem;
+    height: fit-content;
+}
+
+.voilier-container {
+    margin-top: 2rem;
+    color: white;
+}
