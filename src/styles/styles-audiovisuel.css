@@ -37,10 +37,11 @@ p {
     margin-left: auto;
     margin-right: auto;
     color: white;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
     margin: 0;
     text-align: justify;
+    margin-bottom: 0.5rem;
 }
 
 iframe {
@@ -58,10 +59,11 @@ a {
     justify-content: center;
     flex-direction: row;
     gap: 1rem;
-    width: 80%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .container div {
@@ -87,4 +89,14 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+}
+
+.mix {
+    margin-bottom: 2rem;
+}
+
+#ecoute-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
