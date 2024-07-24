@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-  cdPlayer = document.getElementsByClassName("cd-player")[0];
-  cd = document.getElementsByClassName("cd")[0];
+  let cdPlayer = document.getElementsByClassName("cd-player")[0];
+  let cd = document.getElementsByClassName("cd")[0];
+  let audio = document.querySelector("audio");
 
   cdPlayer.addEventListener("click", function () {
     if (cd.classList.contains("play")) {
@@ -9,12 +10,16 @@ document.addEventListener("DOMContentLoaded", function () {
       cdPlayer.classList.remove("play");
       cdPlayer.classList.add("pause");
       cdPlayer.style.transform = "rotate(180deg)";
+      audio.pause();
     } else {
       cd.classList.remove("pause");
       cd.classList.add("play");
       cdPlayer.classList.remove("pause");
-        cdPlayer.classList.add("play");
+      cdPlayer.classList.add("play");
       cdPlayer.style.transform = "rotate(140deg)";
+      audio.play();
+      audio.loop = true;
+      audio.volume = 0.5;
     }
   });
 });
