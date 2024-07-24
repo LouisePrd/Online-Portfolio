@@ -42,6 +42,26 @@ body {
     transition: 0.2s;
 }
 
+.sommaire {
+    font-family: var(--police-titre2-btn);
+    font-size: var(--font-size-small);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 0;
+    position: absolute;
+    right: 0;
+    margin-top: 1em;
+    margin-right: 1em;
+    gap: 0.5em;
+}
+
+.sommaire a {
+    text-decoration: underline;
+    color: rgb(255, 255, 255, 0.9);
+    
+}
+
 .all {
     min-height: 100vh;
     display: flex;
@@ -179,7 +199,7 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .presentation-container {
         flex-direction: column;
         align-items: center;
@@ -191,7 +211,7 @@ body {
         margin-bottom: 1em;
         width: 100%;
     }
-    
+
     .text-presentation {
         width: 80%;
     }
@@ -205,7 +225,7 @@ body {
 
     .social-media img {
         width: 20%;
-        height:fit-content;
+        height: fit-content;
     }
 
     #memoji {
@@ -219,16 +239,17 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .presentation {
         max-width: 80%;
         margin-bottom: 1em;
         width: 100%;
     }
+
     .text-presentation {
         width: 80%;
     }
-    
+
     .social-media {
         max-width: 20%;
         width: 100%;
