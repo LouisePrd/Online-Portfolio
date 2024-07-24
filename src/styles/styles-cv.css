@@ -1,0 +1,16 @@
+html {
+    background-image: url("../assets/imgs/backgrounds/pink.jpg");
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color:rgba(0, 186, 215, 0.636);
+    scroll-behavior: smooth;
+}
+
+#cv-png {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
