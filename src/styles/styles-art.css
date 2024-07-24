@@ -3,6 +3,7 @@ html {
     background-position: center;
     background-blend-mode: multiply;
     background-color:rgb(17, 4, 82, 0.7);
+    scroll-behavior: smooth;
 }
 
 img {
@@ -40,6 +41,11 @@ h3 {
     margin-right: auto;
 }
 
+.photo-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
 .poeme-container {
     color: white;
     display: flex;
@@ -74,13 +80,18 @@ h3 {
     padding: 3rem;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .voilier-container p {
     text-align: justify;
     font-family: var(--police-texte);
     font-size: var(--font-size-xsmall);
+}
+
+.voilier-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 .results {
@@ -93,4 +104,14 @@ h3 {
     margin: 1rem;
     max-height: 200px;
     width: auto;
+}
+
+#ancre {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-family: var(--police-titre2-btn);
+    font-size: var(--font-size-xsmall);
+    text-decoration: none;
+    color: white;
 }
