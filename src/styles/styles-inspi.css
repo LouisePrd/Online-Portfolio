@@ -17,10 +17,9 @@ html {
 .container img {
     width: 90% !important;
     height: auto !important;
-}
-
-.container img:hover {
-    border: var(--color-pink) 10px solid;
+    transition: all .2s ease-in-out;
+    visibility: hidden;
+    border:var(--color-pink) 5px solid;
 }
 
 @media (max-width: 1200px) {
@@ -53,10 +52,9 @@ html {
         -webkit-column-count: 1;
         column-count: 1;
     }
+
+    .container img {
+        width: 100% !important;
+    }
 }
 
-img {
-    transition: all .2s ease-in-out;
-    visibility: hidden;
-    border:var(--color-pink) 5px solid;
-}

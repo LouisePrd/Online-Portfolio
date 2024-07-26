@@ -237,6 +237,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    html {
+        background-image: url("../assets/imgs/backgrounds/pink-mobile.jpg");
+    }
     .all {
         border-width: 2vh;
         flex-direction: column;

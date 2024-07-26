@@ -88,13 +88,22 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
   :root {
     --font-size-very-large: 4em;
     --font-size-large: 3em;
     --font-size-medium: 1.8em;
   }
+
+  #btnHome,
+    #btnProject {
+      font-size: var(--font-size-xsmall);
+    }
+
+    .sub-title {
+      margin-top: 1.5em;
+    }
 }
 
 @media (max-width: 400px) {
@@ -104,4 +113,5 @@ body {
     --font-size-large: 2.5em;
     --font-size-medium: 1.5em;
   }
+
 }

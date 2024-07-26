@@ -7,10 +7,17 @@ html {
 }
 
 #cv-png {
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
     margin-bottom: 2rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 800px) {
+    #cv-png {
+        max-width: 80%;
+    }
+    
 }

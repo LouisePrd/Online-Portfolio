@@ -225,3 +225,36 @@ button {
     height: 100%;
     border-radius: 10px;
 }
+
+/* Media queries */
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1000px) {
+    
+}
+
+@media (max-width: 800px) {
+    .slides-container {
+        display: block;
+        overflow: hidden;
+    }
+
+    .slide {
+        margin-bottom: 1rem;
+    }
+
+    .slide-img {
+        width: 80%;
+        border: var(--color-black) 5px solid;
+    }
+
+    .slide-img:hover {
+        border: var(--color-pink) 5px solid;
+    }
+
+    .slide-arrow {
+        display: none; /* Hide arrows */
+    }
+}
