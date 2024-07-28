@@ -1,6 +1,6 @@
 # Online-Portfolio
 
-As mentioned in my profile, my name is Louise and I'm studying creative engineering at ESIEE Paris (IMAC training). With this portfolio, I wanted to share the works that inspire me in everyday life, as well as my own projects during my studies.<br>
+As mentioned in my profile, my name is Louise and I'm studying creative engineering at ESIEE Paris (IMAC training). With this portfolio, I wanted to share the works that inspire me in my everyday life, as well as my own projects during my studies.<br>
 It's not finished yet and will be updated regularly. You'll also find all the contact information you need to get in touch with me.<br><br>
 Have a nice browsing :)<br>
 -> <a href="https://louise-prd.netlify.app/" target="_blank">Link to the website</a>
