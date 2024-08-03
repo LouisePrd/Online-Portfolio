@@ -255,6 +255,55 @@ button {
     }
 
     .slide-arrow {
-        display: none; /* Hide arrows */
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .left, .right {
+        width: 90%;
+        margin: 1em 0;
+    }
+
+    .containerMarie {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        margin-left: 0;
+    }
+
+    .marie-home {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    .title-left, .title-right {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+
+    #btnHome, #btnProject {
+        font-size: 1em;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btns p {
+        font-size: 3vw;
     }
 }

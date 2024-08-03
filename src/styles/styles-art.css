@@ -66,7 +66,21 @@ h3 {
     height: 400px;
     overflow-y: auto;
     scroll-behavior: smooth;
+    max-width: 25%;
+}
+
+.poeme-img {
     max-width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #381540;
+}
+
+.poeme-img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 .voilier-container {
@@ -127,6 +141,10 @@ h3 {
         max-width: 50%;
     }
 
+    .poeme-img {
+        max-width: 50%;
+    }
+
     .voilier-container img {
         max-width: 50%;
     }
@@ -144,5 +162,8 @@ h3 {
     }
     .voilier-container p {
         font-size: var(--font-size-xxsmall);
+    }
+    .poeme-img {
+        max-width: 60%;
     }
 }

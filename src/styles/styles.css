@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Hit-Me-Punk";
+  src: url("../assets/fonts/hit-me-punk/Hit\ me\,\ punk!\ 04.ttf");
+}
+
+@font-face {
+  font-family: "hypothetical-moon-of-mercury";
+  src: url("../assets/fonts/hypothetical-moon-of-mercury/HypotheticalmoonofMercury.ttf");
+}
+
+html {
+  color: #ffff00;
+  background-image: url("../assets/imgs/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  box-sizing: border-box;
+  border: 5vh solid #000000;
+}
+
+@media (max-width: 1200px) {
+  .all {
+    border-width: 5vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .all {
+    border-width: 3vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .all {
+    border-width: 2vh;
+  }
+}
+
+.main-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+  transform: rotate(3deg);
+  transition: 0.5s;
+}
+
+#first-title {
+  text-align: left;
+  font-family: 'Hit-Me-Punk', arial;
+  font-size: 9vw;
+  background-color: #000000;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  margin-top: 0.5em;
+  margin-left: 0.2em;
+  margin-bottom: 0;
+  width: fit-content;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  font-size: 2.8vw;
+  font-family: "hypothetical-moon-of-mercury", arial;
+  width: fit-content;
+  margin: 0;
+  margin-left: 0.5em;
+  margin-top: 0.3em;
+  background-color: #161616;
+  padding: 0.1em;
+  transform: rotate(-5deg);
+  transition: 0.5s;
+}
+
+#btnStart {
+  color: #ffff00;
+  font-size: 1.4vw;
+  font-family: 'Roboto', arial;
+  text-decoration: none;
+  background-color: #161616;
+  padding: 5px 10px;
+  width: fit-content;
+  margin-top: 0.5em;
+}
+
+#skull {
+  position: absolute;
+  width: 20%;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  transform: rotate(90deg);
+}
+
+.text-presentation {
+  font-size: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.text-presentation p {
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  font-family: 'Roboto', arial;
+}
+
+@media (max-width: 768px) {
+  .text-presentation p {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-presentation p {
+    width: 70%;
+  }
+}
