@@ -84,7 +84,7 @@ h3 {
 .poeme-img {
     border: 4px solid rgb(46, 0, 132);
     margin: 5px;
-    height: 200px;
+    height: 250px;
     width: auto;
     object-fit: cover;
     transition: transform 0.3s;
