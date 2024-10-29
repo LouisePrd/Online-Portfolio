@@ -7,11 +7,6 @@ html {
     scroll-behavior: smooth;
 }
 
-img {
-    max-width: 30%;
-    height: auto;
-}
-
 h2 {
     font-size: var(--font-size-medium);
     font-family: var(--police-titre2-btn);
@@ -42,6 +37,11 @@ h3 {
     margin-right: auto;
 }
 
+.photo-container img {
+    max-width: 30%;
+    height: auto;
+}
+
 .photo-container img:hover {
     transform: scale(1.1);
     transition: transform 0.3s;
@@ -58,6 +58,7 @@ h3 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5rem;
 }
 
 .poeme {
@@ -95,6 +96,30 @@ h3 {
     transition: transform 0.3s;
 }
 
+.projet-3d-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projet-3d-container img {
+    width: auto;
+    height: auto;
+    max-width: 700px;
+    max-height: 300px;
+    transition: transform 0.3s;
+}
+
+.projet-3d-container img:hover {
+    transform: scale(1.1);
+}
+
+
 .voilier-container {
     margin-top: 2rem;
     color: white;
@@ -115,6 +140,12 @@ h3 {
     text-align: justify;
     font-family: var(--police-texte);
     font-size: var(--font-size-xsmall);
+}
+
+.voilier-container img {
+    max-width: 30%;
+    height: auto;
+    transition: transform 0.3s;
 }
 
 .voilier-container img:hover {
