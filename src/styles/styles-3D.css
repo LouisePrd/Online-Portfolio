@@ -1,0 +1,41 @@
+html {
+    background-image: url("../assets/imgs/backgrounds/pink.jpg");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color:rgba(32, 32, 23, 0.735);
+    scroll-behavior: smooth;
+}
+
+.projet-3d-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projet-3d-container img, .projet-3d-container video {
+    width: auto;
+    height: auto;
+    max-width: 700px;
+    max-height: 300px;
+    transition: transform 0.3s;
+}
+
+.projet-3d-container img:hover {
+    transform: scale(1.1);
+}
+
+#ancre {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-family: var(--police-titre2-btn);
+    font-size: var(--font-size-xsmall);
+    text-decoration: none;
+    color: white;
+}
