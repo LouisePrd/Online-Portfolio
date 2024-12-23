@@ -35,6 +35,7 @@ h3 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5rem;
 }
 
 .photo-container img {
@@ -47,29 +48,6 @@ h3 {
     transition: transform 0.3s;
 }
 
-.poeme-container {
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5rem;
-}
-
-.poeme {
-    border: 2px solid var(--color-pink);
-    padding: 1rem;
-    height: 400px;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-    max-width: 25%;
-}
-
 .visuels {
     display: flex;
     flex-direction: row;
@@ -80,20 +58,6 @@ h3 {
     margin-right: auto;
     gap: 1rem;
 
-}
-
-.poeme-img {
-    border: 4px solid rgb(46, 0, 132);
-    margin: 5px;
-    height: 250px;
-    width: auto;
-    object-fit: cover;
-    transition: transform 0.3s;
-}
-
-.poeme-img:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s;
 }
 
 .voilier-container {
@@ -157,14 +121,6 @@ h3 {
         max-width: 45%;
     }
 
-    .poeme {
-        max-width: 50%;
-    }
-
-    .poeme-img {
-        max-width: 50%;
-    }
-
     .voilier-container img {
         max-width: 50%;
     }
@@ -182,8 +138,5 @@ h3 {
     }
     .voilier-container p {
         font-size: var(--font-size-xxsmall);
-    }
-    .poeme-img {
-        max-width: 70%;
     }
 }
