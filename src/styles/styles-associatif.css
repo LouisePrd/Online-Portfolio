@@ -27,7 +27,9 @@ h3 {
     color: var(--color-pink);
     margin: 0;
     padding: 0;
+    padding-left: 1rem;
     margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 p {
@@ -49,6 +51,24 @@ a {
     color: var(--color-pink);
 }
 
+li {
+    font-size: var(--font-size-xsmall);
+    font-family: var(--police-texte);
+    color: white;
+    margin-left: 1rem;
+}
+
+.intro {
+    font-size: var(--font-size-small);
+    font-family: var(--police-titre2-btn);
+    text-align: center;
+    margin-bottom: 2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2rem;
+    justify-content: center;
+}
 
 #ancre {
     position: fixed;
@@ -58,6 +78,19 @@ a {
     font-size: var(--font-size-xsmall);
     text-decoration: none;
     color: white;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(42, 18, 18, 0.4);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 
