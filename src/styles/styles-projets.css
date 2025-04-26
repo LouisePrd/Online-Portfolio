@@ -27,6 +27,10 @@ html {
     background-color: rgba(0, 216, 159, 0.5);
 }
 
+.averagePlayer {
+    background-color: rgba(0, 0, 0, 0.686);
+}
+
 /* SLIDER Carrousel */
 
 .slider-wrapper {
