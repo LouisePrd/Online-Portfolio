@@ -106,7 +106,7 @@ li {
 }
 
 .gallery img {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 0.5rem;
     border-radius: 5px;
@@ -114,7 +114,7 @@ li {
     height: auto;
 }
 
-.presentation {
+.presentation, .imacannes, .jdc, .gala {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -128,6 +128,23 @@ li {
 .presentation img {
     max-width: 150px;
     height: auto;
+    margin-bottom: 2rem;
+}
+
+.presentation p, .imacannes p, .jdc p, .gala p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--font-size-xsmall);
+    font-family: var(--police-texte);
+    text-align: justify;
+}
+
+.gala img {
+    max-height: 250px;
+    width: auto;
+    margin-bottom: 2rem;
 }
 
 /* Media queries */
