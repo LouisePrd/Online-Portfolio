@@ -28,86 +28,44 @@ html {
 }
 
 .averagePlayer {
-    background-color: rgba(0, 0, 0, 0.686);
+    background-color: rgba(3, 2, 2, 0.755);
 }
 
-/* SLIDER Carrousel */
-
-.slider-wrapper {
-    margin: 1rem;
-    position: relative;
-    overflow: hidden;
+.inusTale {
+    background-color: rgba(0, 120, 240, 0.5);
 }
 
-.slides-container {
-    width: 100%;
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: scroll;
-    scroll-behavior: smooth;
+.associatif {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.slide {
-    width: 100%;
-    height: 100%;
-    flex: 1 0 100%;
-}
-
-.slides-container {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
-
-.slides-container::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
-
-.slide-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-}
-
-.slide-arrow img {
-    width: 7rem;
-    height: 4rem;
-    opacity: 0.6;
-}
-
-.slide-arrow:hover img {
-    opacity: 1;
-}
-
-#slide-arrow-prev {
-    left: 0;
-}
-
-#slide-arrow-next {
-    right: 0;
-}
-
-.slide-img {
-    width: 55%;
-    height: auto;
-    object-fit: cover;
-    justify-content: center;
+/* Grid projects info */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1400px;
     margin: 0 auto;
-    display: block;
-    border: var(--color-black) 8px solid;
-    transition: all .3s ease-in-out;
-    border-radius: 10px;
 }
 
-.slide-img:hover {
-    border: var(--color-pink) 8px solid;
-    border-radius: 10px;
-    cursor: pointer;
+.project-card {
+    display: block;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Projects */
