@@ -219,9 +219,22 @@ button {
     .slide-arrow {
         display: none;
     }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 1rem;
+    }
 }
 
 @media (max-width: 768px) {
+
+    .project-container {
+        width: 90%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
     .left, .right {
         width: 90%;
         margin: 1em 0;
@@ -256,6 +269,11 @@ button {
 
     iframe {
         width: 100%;
+    }
+
+    .results img, .results .vertical {
+        width: 100%;
+        height: auto;
     }
 }
 

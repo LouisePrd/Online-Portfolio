@@ -154,4 +154,10 @@ li {
         padding-left: 1.5rem;
         font-size: var(--font-size-xxsmall);
     }
+
+    .presentation p, .imacannes p, .jdc p, .gala p {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        font-size: var(--font-size-xxsmall);
+    }
 }
