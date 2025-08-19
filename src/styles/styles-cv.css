@@ -6,13 +6,26 @@ html {
     scroll-behavior: smooth;
 }
 
-#cv-png {
-    max-width: 50%;
+#cv-pdf {
+    max-width: 70%;
+    min-height: 800px;
     height: auto;
     margin-bottom: 2rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.download {
+    text-align: center;
+    margin: 2rem 0;
+    color: #9b9b9b;
+    margin: 2rem 0;
+}
+
+.download a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 @media (max-width: 800px) {
