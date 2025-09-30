@@ -144,6 +144,9 @@ li {
 .gala img {
     max-height: 250px;
     width: auto;
+}
+
+.gala {
     margin-bottom: 2rem;
 }
 
